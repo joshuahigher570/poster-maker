@@ -1,0 +1,34 @@
+{
+  "name": "poster-maker",
+  "version": "1.0.0",
+  "description": "Marketing poster generator — visually striking HTML/CSS posters exportable to PNG/PDF",
+  "license": "MIT",
+  "author": "Dabotech Studio d.o.o.",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/dabodamjan/poster-maker.git"
+  },
+  "keywords": [
+    "poster",
+    "marketing",
+    "html",
+    "css",
+    "claude-code",
+    "playwright",
+    "design"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "preview": "npx serve . --port 3000",
+    "export": "node scripts/export.js",
+    "screenshot": "node scripts/screenshot.js"
+  },
+  "dependencies": {
+    "playwright": "^1.58.2"
+  },
+  "devDependencies": {
+    "serve": "^14.2.4"
+  }
+}

@@ -1,0 +1,43 @@
+# Dependencies
+node_modules/
+.npm
+*.tgz
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Environment
+.env
+.env.*
+
+# Exports / Generated
+exports/
+
+# Playwright
+test-results/
+playwright-report/
+blob-report/
+playwright/.cache/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+._*
+
+# Windows
+Thumbs.db
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Temp
+*.tmp
+*.bak
